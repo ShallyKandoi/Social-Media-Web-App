@@ -1,0 +1,39 @@
+.follower{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.follower>div{
+    display: flex;
+    gap: 10px;
+}
+
+.Img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.Name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Name>span:first-child{
+    font-weight: bold;
+}
+
+.f-button{
+    height: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Unfollow{
+    background: transparent;
+    border: 2px solid var(--orange);
+    color: var(--orange);
+}
